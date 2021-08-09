@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <string>
 using namespace std;
-
+//string permutation
 void permutation_recursion(string a, int left, int right){
     if(left == right){
         cout<<a<<endl;
